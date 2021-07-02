@@ -7,7 +7,6 @@
 var app = require('../app');
 
 var http = require('http');
-// var models = require('../db');
 const { PORT } = require('../configuration');
 delete process.env['http_proxy'];
 delete process.env['HTTP_PROXY'];
